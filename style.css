@@ -82,7 +82,7 @@ header>nav>ul>li>a:hover{
 }
 .dashboard{
     background-color: rgb(60, 191, 243);
-    height: 125vh;
+    height: 150vh;
     width: 25%;
     margin-top: 1px;
     padding-left: 10px;
@@ -158,7 +158,7 @@ header>nav>ul>li>a:hover{
     align-items: center;
 }
 .main-body-cont img{
-    width: 95%;
+    width: 99%;
     margin-top: 1%;
 }
 .image-slider img {
