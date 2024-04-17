@@ -5,16 +5,16 @@
 }
 header{
     height: 50px;
-    background-color: rgb(60, 191, 243);
+    background-color: white;
     color:white;
     align-items: center;
+    border: 1px solid rgb(60, 191, 243);
+    position: fixed;
+    width: 100%;
 }
 header>nav>img{
     height: 40px;
     width: auto;
-}
-header span{
-    color: orange;
 }
 header>nav{
     display: flex;
@@ -73,10 +73,11 @@ header>nav>ul>li>a:hover{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
+    padding-top: 4%;
 }
 .dashboard{
     background-color: rgb(60, 191, 243);
-    height: 91vh;
+    height: 120vh;
     width: 25%;
     margin-top: 1px;
     padding-left: 10px;
@@ -84,8 +85,8 @@ header>nav>ul>li>a:hover{
     border-radius: 5px;
 }
 .dashboard h2{
-    color: rgb(60, 191, 243);
-    background-color: white;
+    color: white;
+    border: 1px solid white;
     padding: 10px;
     width: 320px;
     margin-bottom: 1%;
@@ -117,6 +118,18 @@ header>nav>ul>li>a:hover{
     padding-left: 20px;
     padding-top: 20px;
 }
+.main-content h3{
+    text-align: center;
+    color: rgb(60, 191, 243);
+    font-weight: bold;
+}
+.container p{
+    width: 95%;
+    padding-left: 20px;
+    text-align: justify;
+    margin: 10px;
+
+} 
 @media (max-width:650px){
     .Home{
         display: flex;
@@ -125,10 +138,21 @@ header>nav>ul>li>a:hover{
     .dashboard{
         height: auto;
         width: 100%;
+        margin-bottom: 1%;
     }
 
 }
 .dashboard .active{
     background-color: white;
     color: rgb(60, 191, 243);
+}
+.main-body-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-body-cont img{
+    width: 85%;
+    margin-top: 1%;
 }
