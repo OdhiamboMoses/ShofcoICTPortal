@@ -8,9 +8,14 @@ header{
     background-color: white;
     color:white;
     align-items: center;
-    border: 1px solid rgb(60, 191, 243);
+    border-bottom:  solid rgb(60, 191, 243);
+    box-shadow: 1px rgb(60, 191, 243);
     position: fixed;
     width: 100%;
+}
+header .active{
+    color: white;
+    background-color: rgb(60, 191, 243);
 }
 header>nav>img{
     height: 40px;
@@ -77,7 +82,7 @@ header>nav>ul>li>a:hover{
 }
 .dashboard{
     background-color: rgb(60, 191, 243);
-    height: 120vh;
+    height: 125vh;
     width: 25%;
     margin-top: 1px;
     padding-left: 10px;
@@ -153,6 +158,6 @@ header>nav>ul>li>a:hover{
     align-items: center;
 }
 .main-body-cont img{
-    width: 85%;
+    width: 95%;
     margin-top: 1%;
 }
