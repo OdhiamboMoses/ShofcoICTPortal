@@ -12,6 +12,7 @@ header{
     box-shadow: 1px rgb(60, 191, 243);
     position: fixed;
     width: 100%;
+    z-index: 100;
 }
 header .active{
     color: white;
@@ -166,4 +167,47 @@ header>nav>ul>li>a:hover{
 }
 .image-slider img:first-child {
     display: block;    
+}
+.image-slider{
+    position: relative;
+}
+.slider-buttons-prev{
+    position:absolute;
+    margin-right: 65%;
+    margin-top: 20%;
+}
+.slider-buttons-next{
+    position:absolute;
+    margin-left: 65%;
+    margin-top: 20%;
+    color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.slider-buttons-prev button{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgb(60, 191, 243);
+    border: none;
+    border-radius: 5px;
+}
+.slider-buttons-prev button:hover{
+    background-color: white;
+    color: rgb(60, 191, 243);
+    cursor: pointer;
+}
+.slider-buttons-next button:hover{
+    background-color: white;
+    color: rgb(60, 191, 243);
+    cursor: pointer;
+}
+.slider-buttons-next button{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background-color: rgb(60, 191, 243);
+    border: none;
+    border-radius: 5px;
 }
