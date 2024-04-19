@@ -26,6 +26,24 @@ images[currentImageIndex].style.display = 'block';
 
 }
 
+
 // Show the next image every 5 seconds
 
 setInterval(showNextImage, 5000);
+
+function myPrevFunction() {
+    images[currentImageIndex].style.display = 'none';
+
+    currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+
+    images[currentImageIndex].style.display = 'block';
+}
+
+function myNextFunction() {
+    images[currentImageIndex].style.display = 'none';
+
+    currentImageIndex = (currentImageIndex + 1) % images.length;
+
+    images[currentImageIndex].style.display = 'block';
+}
+

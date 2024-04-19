@@ -211,3 +211,13 @@ header>nav>ul>li>a:hover{
     border: none;
     border-radius: 5px;
 }
+@media (max-width:650px) {
+    .slider-buttons-prev{
+        position:static;
+        margin-top: 1px;
+    }
+    .slider-buttons-next{
+        position:static;
+        margin-top: -40px;
+    }
+}
