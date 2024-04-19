@@ -47,3 +47,30 @@ function myNextFunction() {
     images[currentImageIndex].style.display = 'block';
 }
 
+// function myHumberger() {
+//     let myHumbergerBtn = document.querySelector('.hum-toggler ul');
+//     myHumbergerBtn.style.display === 'none' ? myHumbergerBtn.style.display = 'inline' : myHumbergerBtn.style.display = 'none';
+// }
+
+// function myHumberger() {
+//     let myHumbergerBtn = document.querySelector('.hum-toggler ul');
+//     if (myHumbergerBtn) {
+//         myHumbergerBtn.style.display = myHumbergerBtn.style.display === 'none' ? 'inline' : 'none';
+//     }
+// }
+
+// function myHumberger() {
+//     let myHumbergerBtn = document.querySelector('.hum-toggler ul');
+//     if (myHumbergerBtn) {
+//         myHumbergerBtn.style.display = myHumbergerBtn.style.display === 'none' ? 'inline' : 'none';
+//     }
+// }
+
+// // Add event listener for window resize
+// window.addEventListener('resize', function() {
+//     // Check if window width is less than or equal to 650px
+//     if (window.innerWidth <= 650) {
+//         // Run your script
+//         myHumberger();
+//     }
+// });
