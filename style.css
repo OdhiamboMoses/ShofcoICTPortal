@@ -277,6 +277,10 @@ header>nav>ul>li>a:hover{
     border-radius: 5px;
     text-align: center;
 }
+.form-body input:hover{
+    border: 1px solid rgb(86, 253, 86);
+}
+
 .form-body button{
     padding: 16px;
     height: 50px;
