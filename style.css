@@ -255,6 +255,14 @@ header>nav>.hum-icon>span{
     background-position: center;
     background-size: cover;
 }
+.contact-form-side-img {
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    background-image: url(shofco6.jpg);
+    background-position: center;
+    background-size: cover;
+}
 .form-body {
     height: 100%;
     width: 50%;
